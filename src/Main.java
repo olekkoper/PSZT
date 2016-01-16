@@ -29,14 +29,15 @@ public class Main {
         testNeuralNetwork(myMlPerceptron, trainingSet);
 
         // save trained neural network
-        myMlPerceptron.save("myMlPerceptron.nnet");
+        // myMlPerceptron.save("myMlPerceptron.nnet");
 
         // load saved neural network
-        NeuralNetwork loadedMlPerceptron = NeuralNetwork.createFromFile("myMlPerceptron.nnet");
+        //NeuralNetwork loadedMlPerceptron = NeuralNetwork.createFromFile("myMlPerceptron.nnet");
 
         // test loaded neural network
-        System.out.println("Testing loaded neural network");
-        testNeuralNetwork(loadedMlPerceptron, trainingSet);
+        //System.out.println("Testing loaded neural network");
+        //testNeuralNetwork(loadedMlPerceptron, trainingSet);
+
 
     }
 
