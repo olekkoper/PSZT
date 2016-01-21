@@ -45,7 +45,7 @@ public class DataSetParser {
                 }
                 int dataClass = Integer.parseInt(values[279]);
                 for(i=279;i<295;++i){parsed[i]=.0;}
-                parsed[278+dataClass]=.1;
+                parsed[278+dataClass]=1.0;
 
                 matrix.add(parsed);
                 ++i;
